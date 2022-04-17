@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 10px;
+
+
+
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+
+}
+.item{
+    display: inline-block;
+    width: 30%;
+   
+}
+.utf{
+    font-size: 25px;
+    margin: 15px 0;
+    color: red;
+}
+.lorem{
+    font-size: 20px;
+    text-align: center;
+}
+.img{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.img:hover{
+    opacity: 0.7;
+
+}
+
